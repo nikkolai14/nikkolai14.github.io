@@ -64,6 +64,21 @@ a {
 	font-size: 1.5em
 }
 
+.skills-container {
+	display: grid;
+	gap: 2rem;
+	grid-template-columns: repeat(2, 1fr)
+}
+
+.skills-logo {
+	text-align: center;
+}
+
+.skills-logo img {
+	width: 100px;
+	height: auto;
+}
+
 footer {
 	text-align: center;
     font-size: .5em;
@@ -90,6 +105,18 @@ footer .author-link {
 
 	.container {
 		width: 300px;
+	}
+}
+
+@media only screen and (min-width: 376px) {
+	.skills-container {
+		grid-template-columns: auto auto auto;
+	}
+}
+
+@media only screen and (min-width: 769px) {
+	.skills-container {
+		grid-template-columns: repeat(4, 1fr)
 	}
 }
 
