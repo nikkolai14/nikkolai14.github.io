@@ -67,7 +67,7 @@ a {
 .skills-container {
 	display: grid;
 	gap: 2rem;
-	grid-template-columns: repeat(2, 1fr)
+	grid-template-columns: repeat(3, 1fr)
 }
 
 .skills-logo {
@@ -75,7 +75,7 @@ a {
 }
 
 .skills-logo img {
-	width: 100px;
+	width: 60px;
 	height: auto;
 }
 
@@ -110,13 +110,13 @@ footer .author-link {
 
 @media only screen and (min-width: 376px) {
 	.skills-container {
-		grid-template-columns: auto auto auto;
+		grid-template-columns: repeat(4, 1fr)
 	}
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 426px) {
 	.skills-container {
-		grid-template-columns: repeat(4, 1fr)
+		grid-template-columns: repeat(5, 1fr)
 	}
 }
 
